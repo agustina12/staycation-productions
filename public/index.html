@@ -39,7 +39,7 @@
     <!-- main content -->
     <div class="mx-20 mt-16 w-auto">
       <!-- hero -->
-      <div class="flex flex-row">
+      <div class="flex flex-row justify-between">
         <div class="1/2">
           <h1 class="text-4xl text-blue-950 font-bold leading-normal">
             Forget Busy Work,<br />
@@ -50,7 +50,8 @@
             make another memorable moments.
           </p>
           <button
-            class="bg-blue-600 text-white py-3 px-14 rounded-md shadow-lg hover:bg-blue-800 hover:shadow-lg">
+            class="bg-blue-600 text-white py-3 px-14 rounded-md shadow-lg hover:bg-blue-800 hover:shadow-lg"
+          >
             Show Me Now
           </button>
           <div class="columns-3 mt-10">
@@ -85,7 +86,8 @@
             <img
               src="/src/img/banner.png"
               alt="image"
-              class="rounded-tl-[6rem] rounded-r-[1rem] rounded-bl-[1rem] h-auto w-auto" />
+              class="rounded-tl-[6rem] rounded-r-[1rem] rounded-bl-[1rem] h-auto w-auto"
+            />
           </div>
           <div class="line-img"></div>
           <!-- outline outline-2 outline-offset-0 outline-gray-200 rounded-lg h-3/4 -mt-[17rem] ml-10 -mr-7 -->
@@ -93,12 +95,18 @@
       </div>
       <!-- end hero -->
       <!-- most picked -->
-      <div class="most-picked">
+      <div class="most-picked mt-36 mb-40 relative">
         <h1>Most Picked</h1>
         <div class="columns-3xs">
           <div class="left">
-            <img src="/src/img/Blue-Origin-Fams.png" alt="" />
-            <div class="card">
+            <img src="/src/img/Blue-Origin-Fams.png" alt="" class="sticky" />
+            <div
+              class="header-card flex gap-2 px-10 py-3 rounded-bl-2xl rounded-tr-2xl sticky"
+            >
+              <p class="text-lg font-semibold text-white">$50</p>
+              <span class="text-lg font-light text-white">per night</span>
+            </div>
+            <div class="card absolute bottom-52 p-10 text-white">
               <p>Blue Origin Fams</p>
               <p>Jakarta, Indonesia</p>
             </div>
@@ -115,8 +123,31 @@
       </div>
       <!-- end most picked -->
       <!-- house_with_backyard -->
-      <div class="house_with_backyard"></div>
+      <div class="house-section">
+        <div class="grid grid-rows-2 grid-flow-col gap-3">
+          <div class="row-span-3 ...">
+            <img src="/src/img/Blue-Origin-Fams.png" />
+          </div>
+          <div class="col-span-2 ...">
+            <img src="/src/img/Ocean-Land.png" alt="" />
+          </div>
+          <div class="row-span-2 col-span-2 ...">
+            <img src="/src/img/Vinna-Vill.png" alt="" />
+          </div>
+        </div>
+      </div>
       <!-- end house_with_backyard -->
+      <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <div class="row-start-2 row-span-2 ...">
+          <img src="/src/img/Blue-Origin-Fams.png" />
+        </div>
+        <div class="row-end-3 row-span-2 ...">
+          <img src="/src/img/Ocean-Land.png" alt="" />
+        </div>
+        <div class="row-start-1 row-end-4 ...">
+          <img src="/src/img/Vinna-Vill.png" alt="" />
+        </div>
+      </div>
     </div>
     <!-- end main content -->
   </body>

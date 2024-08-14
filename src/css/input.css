@@ -11,9 +11,33 @@ body {
 .line-img {
   box-sizing: content-box;
   width: 100%;
-  height: 80%;
+  height: 100%;
   border: 2px solid #e5e7eb;
-  margin-top: -18rem;
+  margin-top: -21rem;
   margin-left: 2rem;
   border-radius: 1rem;
+}
+
+/* .most-picked .left {
+  background-image: url("/src/img/Blue-Origin-Fams.png");
+  height: 100%;
+  width: 100%;
+} */
+
+.most-picked .left > img {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.5) 99.91%
+  );
+}
+
+/* .most-picked .left {
+  margin-top: -2rem;
+} */
+
+.most-picked .header-card {
+  background-color: #ff498b;
+  /* border-radius: 0px 15px; */
+  margin-top: -15rem;
 }
